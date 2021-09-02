@@ -70,11 +70,19 @@ section {
 
 /* hero styles */
 .hero {
+    background-image: url('../images/hero-vinyls.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     background-color: red;
     padding: 40px;
+}
+
+section:nth-child(odd) {
+    background-color:skyblue;
 }
 
 .hero h2 {
@@ -94,22 +102,34 @@ section {
 }
 
 .guts {
-    flex: 5;
+    flex: 6;
     padding: 20px;
     width: 100%;
-    background: springgreen;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .card {
-    flex: 0 0 350px;
+    flex: 0 0 31%;
     padding: 10px;
     margin: 8px;
     border: 1px solid #000;
     border-radius: 2px;
+    color:rgba(255, 255, 255, 1);
     background-color: orange;
+}
+
+.featured {
+    flex: 100%;
+    background-image: url('../images/hero-vinyls.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card h3 {
+    margin-top: 30%;
+    
 }
 
 .flex-row {
