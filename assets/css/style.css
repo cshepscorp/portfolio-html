@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color:yellow;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +27,7 @@ header {
   }
 
 header h1 {
-    color: blue;
+    color: #FF69B4;
 }
 
 header nav {
