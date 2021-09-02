@@ -21,7 +21,7 @@ header {
   }
 
 header h1 {
-    color: purple;
+    color: blue;
 }
 
 header nav {
@@ -35,20 +35,46 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 0 12px;
+    margin: 0 12px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+header nav ul a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1px #333;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+header nav ul a:hover:after {
+    transform: scaleX(1);
+    transform-origin:  0% 50%;
+}
+
+header nav ul a:active {
+    
 }
 
 /* all sections get */
 section {
-    padding: 60px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-/* all sections get */
+/* hero styles */
 .hero {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     background-color: red;
+    padding: 40px;
 }
 
 .hero h2 {
@@ -56,6 +82,36 @@ section {
     text-align: right;
     color: seashell;
 }
+
+/* main body styles */
+.intro {
+    flex: 1;
+    padding: 35px;
+}
+
+.intro h2 {
+    border-bottom: 1px solid purple;
+}
+
+.guts {
+    flex: 5;
+    padding: 20px;
+    width: 100%;
+    background: springgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    flex: 0 0 350px;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: orange;
+}
+
 .flex-row {
     display: flex;
 }
