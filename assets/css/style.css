@@ -74,7 +74,7 @@ section {
 
 /* hero styles */
 .hero {
-    background-image: url('../images/hero-vinyls.jpeg');
+    background-image: url('../images/hero-headshot-vinyls.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -82,21 +82,18 @@ section {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 40px;
+    padding: 250px 0;
 }
 section:nth-child(odd) {
     background-color:var(--primary-color);
 }
-
+/* 
 .hero h2 {
     font-size: 80px;
-    margin: 100px 0 20px 0;
-    text-align: right;
+    margin: 80px 0 90px 0;
+    text-align: left;
     color: var(--tertiary-color);
-}
-
-.hero h2:after {
-    content: ;
-}
+} */
 
 /* main body styles */
 .intro {
@@ -135,7 +132,7 @@ section:nth-child(odd) {
     border: 1px solid #000;
     border-radius: 2px;
     color:rgba(255, 255, 255, 1);
-    background-color: var(--secondary-color);
+    background-color: #999;
 }
 
 .card:hover {
@@ -145,16 +142,19 @@ section:nth-child(odd) {
     background-blend-mode: multiply;
 }
 
+.featured h4, .featured p {
+    font-size: 1.5em;
+}
 .featured {
     flex: 100%;
-    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/robot-glads.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .featured:hover {
-    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/robot-glads.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -163,6 +163,49 @@ section:nth-child(odd) {
 .card h4 {
     margin-top: 30%;
     padding-bottom: 6px;
+}
+
+/* special backgrounds and hover states for cards */
+.two {
+    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.two:hover {
+    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.three {
+    background-image: url('../images/endo-erica-carlo.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.three:hover {
+    background-image: url('../images/endo-erica-carlo.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.four {
+    background-image: url('../images/personal-port.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.four:hover {
+    background-image: url('../images/personal-port.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
 }
 
 /* contact styling */
@@ -188,7 +231,7 @@ footer {
     background-image: url('../images/footer-grad-bow.jpeg');
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
