@@ -218,6 +218,11 @@ section:nth-child(odd) {
     padding-left: 40px;
 }
 
+.contact ul li a, .social ul li a {
+    text-decoration: none!important;
+}
+
+
 .flex-row {
     display: flex;
 }
