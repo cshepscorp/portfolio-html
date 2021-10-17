@@ -155,14 +155,14 @@ section:nth-child(odd) {
 }
 .featured {
     flex: 100%;
-    background-image: url('../images/robot-glads.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/lorem-sipsum.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .featured:hover {
-    background-image: url('../images/robot-glads.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/lorem-sipsum.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -175,46 +175,48 @@ section:nth-child(odd) {
 
 /* special backgrounds and hover states for cards */
 .two {
-    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/robot-glads.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .two:hover {
-    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/robot-glads.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .three {
-    background-image: url('../images/endo-erica-carlo.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .three:hover {
-    background-image: url('../images/endo-erica-carlo.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/rb-hero-bg.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .four {
-    background-image: url('../images/personal-port.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/endo-erica-carlo.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .four:hover {
-    background-image: url('../images/personal-port.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/endo-erica-carlo.jpeg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
+
+
 
 /* contact styling */
 .contact, .social {
