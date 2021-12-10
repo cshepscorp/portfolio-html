@@ -155,14 +155,14 @@ section:nth-child(odd) {
 }
 .featured {
     flex: 100%;
-    background-image: url('../images/lorem-sipsum.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75));
+    background-image: url('../images/pokegen.png'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
 .featured:hover {
-    background-image: url('../images/lorem-sipsum.jpg'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url('../images/pokegen.png'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
