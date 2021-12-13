@@ -240,6 +240,7 @@ section:nth-child(odd) {
 .contact ul, .social ul {
     padding-top: 10px;
     padding-left: 40px;
+    list-style: none;
 }
 
 .contact ul li a, .social ul li a {
